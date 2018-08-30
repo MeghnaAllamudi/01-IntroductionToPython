@@ -10,7 +10,7 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and MeghnaAllamudi
 """
 ###############################################################################
 #
@@ -122,7 +122,7 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
-
+boris.right(90)
 ###############################################################################
 #
 # TODO: 5.
@@ -149,7 +149,10 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
-
+joe=rg.SimpleTurtle()
+joe.Pen=rg.Pen('blue',30)
+joe.forward(100)
+)
 ###############################################################################
 #
 # TODO: 6.
