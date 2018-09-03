@@ -27,4 +27,44 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 #
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 ###############################################################################
-stephen=rg.SimpleTurtle()
+import rosegraphics as rg
+
+window = rg.TurtleWindow()
+
+stephen = rg.SimpleTurtle('turtle')
+stephen.pen = rg.Pen('blue', 3)
+stephen.speed = 20
+
+meghna = rg.SimpleTurtle('turtle')
+meghna.pen = rg.Pen('red',5)
+meghna.speed = 20
+
+size = 300
+
+for k in range(13):
+
+
+    stephen.draw_square(size)
+
+
+    stephen.pen_up()
+    stephen.right(25)
+    stephen.forward(10)
+    stephen.left(25)
+
+
+    stephen.pen_down()
+    size = size - 9
+
+for i in range(13):
+    meghna.draw_square(size)
+
+    meghna.pen_up()
+    meghna.right(50)
+    meghna.forward(20)
+    meghna.left(50)
+
+    meghna.pen_down()
+    size=size-9
+
+window.close_on_mouse_click()
