@@ -2,7 +2,7 @@
 An exercise that summarizes what you have learned in this Session.
 
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and MeghnaAllamudi
 """
 ########################################################################
 # TODO: 1.
@@ -38,3 +38,23 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 #   As always, COMMIT-and-PUSH when you are done with this module.
 #
 ###############################################################################
+import rosegraphics as rg
+
+window = rg.TurtleWindow()
+
+turtle1  = rg.SimpleTurtle('turtle')
+turtle1.pen = rg.Pen('blue',10)
+turtle1.go_to(rg.Point(0, 200))
+
+turtle1.pen_up()
+
+turtle1.go_to(rg.Point(100,-40))
+
+turtle1.pen_down()
+turtle1.pen = rg.Pen('green',10)
+turtle1.go_to(rg.Point(100,-150))
+
+window.close_on_mouse_click()
+
+
+
