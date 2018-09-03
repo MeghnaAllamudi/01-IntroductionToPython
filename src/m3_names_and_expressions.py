@@ -1,6 +1,7 @@
 
 answer = 2 ** 5
 print(answer * 100)
+import math
 
 ###############################################################################
 # TODO: 1.
@@ -28,6 +29,7 @@ print(answer * 100)
 #     - Prints the square root of that computed value.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
+print(math.sqrt(77+math.cos(2.75)))
 
 ###############################################################################
 # TODO: 3.
@@ -36,7 +38,7 @@ print(answer * 100)
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(math.sqrt((41*88)+(4*math.cos(2))))
 
 ###############################################################################
 # TODO: 4.
@@ -47,7 +49,8 @@ print(answer * 100)
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(math.sqrt(2))
+print(2**0.5)
 
 ###############################################################################
 # TODO: 5.
@@ -89,3 +92,18 @@ print(answer * 100)
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
+print(str("hello"))
+print(type('hello'))
+print(type("a b c"))
+print(type(3+3))
+print(type("3"+"3"))
+print(type(2**100))
+print(type(2.0**100))
+print(type(math.sin(8)))
+print(type(math.sin))
+print(type(print))
+print(type(math))
+print(type('math'))
+
+
+
